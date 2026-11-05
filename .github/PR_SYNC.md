@@ -21,7 +21,11 @@ Merged proposals move to the merged candidate pool; the display limit can mean
 an older contribution is available through the “all merged” link instead.
 
 Edit `pr-showcase.json` to change display limits, featured PRs, exclusions, or
-project names. Featured status never overrides the PR's actual merge/open state.
+project names. The merged showcase displays only `featured_merged` in order,
+with optional `featured_merged_descriptions`; it does not fill missing entries
+with other PRs. Featured status never overrides the PR's actual merge/open state.
+The search window also applies to featured PRs, so an older entry outside the
+most recent 100 merged results is omitted until the selection is updated.
 The initial exclusion is a proposal whose correctness claim was withdrawn.
 
 API errors stop the job before writing. Identical content produces no commit.

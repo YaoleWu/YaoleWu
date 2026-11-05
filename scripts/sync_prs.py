@@ -98,6 +98,8 @@ def table(prs, config, state):
         repo = pr["repository"]["nameWithOwner"]
         name = config["project_names"].get(repo, repo)
         title = re.sub(r"^(?:\[(?:bugfix|fix|feat|feature|model|kernel|docs)\]\s*)+", "", pr["title"], flags=re.I)
+        if state == "merged":
+            title = config.get("featured_merged_descriptions", {}).get(pr_key(pr), title)
         rows.append(f"| **{cell(name)}** | {cell(title)} | [#{pr['number']}]({pr['url']}) |")
     return "\n".join(rows)
 
@@ -107,8 +109,6 @@ def render(config, merged, opened):
     selected_by_key = {pr_key(pr): pr for pr in selected}
     featured = [selected_by_key[key] for key in config.get("featured_merged", [])
                 if key in selected_by_key]
-    featured_keys = {pr_key(pr) for pr in featured}
-    featured.extend(pr for pr in selected if pr_key(pr) not in featured_keys)
     featured = featured[:3]
 
     return "\n\n".join([

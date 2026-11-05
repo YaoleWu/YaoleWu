@@ -13,9 +13,9 @@ Selected merged upstream pull requests.
 
 | Project | Contribution | PR |
 | :--- | :--- | :--- |
-| **vLLM** | \[LoRA\] Keep failed activations retryable | [#61618](https://github.com/vllm-project/vllm/pull/61618) |
-| **vLLM-Omni** | Preserve CUDA toolkit header precedence in a2a JIT builds | [#7599](https://github.com/vllm-project/vllm-omni/pull/7599) |
-| **FastVideo** | Import MiniMax H3 Comfy NVFP4-AWQ text encoder | [#1865](https://github.com/hao-ai-lab/FastVideo/pull/1865) |
+| **FastVideo** | Support Comfy NVFP4-AWQ text encoders for MiniMax H3 | [#1865](https://github.com/hao-ai-lab/FastVideo/pull/1865) |
+| **SGLang** | Recover HiCache host slots after allocation failures | [#46606](https://github.com/sgl-project/sglang/pull/46606) |
+| **FlashInfer** | Reject unsupported GPUs before FP4 quantization | [#7987](https://github.com/flashinfer-ai/flashinfer/pull/7987) |
 
 [All merged upstream PRs →](https://github.com/pulls?q=is%3Apr+author%3AYaoleWu+is%3Apublic+is%3Amerged+-user%3AYaoleWu)
 

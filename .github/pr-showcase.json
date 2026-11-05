@@ -9,7 +9,6 @@
     "open": 2
   },
   "featured": [
-    "vllm-project/vllm#61618",
     "vllm-project/vllm-omni#7425",
     "vllm-project/vllm-omni#8677"
   ],
@@ -29,8 +28,13 @@
     "MLT-OSS/FirstData": "FirstData"
   },
   "featured_merged": [
-    "vllm-project/vllm#61618",
-    "vllm-project/vllm-omni#7599",
-    "hao-ai-lab/FastVideo#1865"
-  ]
+    "hao-ai-lab/FastVideo#1865",
+    "sgl-project/sglang#46606",
+    "flashinfer-ai/flashinfer#7987"
+  ],
+  "featured_merged_descriptions": {
+    "hao-ai-lab/FastVideo#1865": "Support Comfy NVFP4-AWQ text encoders for MiniMax H3",
+    "sgl-project/sglang#46606": "Recover HiCache host slots after allocation failures",
+    "flashinfer-ai/flashinfer#7987": "Reject unsupported GPUs before FP4 quantization"
+  }
 }
