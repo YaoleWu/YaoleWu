@@ -2,7 +2,7 @@
 
 The workflow refreshes only the `PR-SYNC` region in the profile README. It runs
 daily at 08:17 Asia/Shanghai (00:17 UTC), on relevant configuration changes, or
-manually from [Actions](https://github.com/LeslieWylie/LeslieWylie/actions/workflows/sync-prs.yml).
+manually from [Actions](https://github.com/YaoleWu/YaoleWu/actions/workflows/sync-prs.yml).
 GitHub may delay scheduled runs.
 
 The job uses GitHub's automatic repository token; no personal token or external

@@ -121,7 +121,7 @@ def render(config, merged, opened):
         table(select_prs(opened, config, "open"), config, "open"),
         f"[All open upstream PRs →]({search_link(config['author'], 'open')})",
         "</details>",
-        "[Automatic PR sync](https://github.com/LeslieWylie/LeslieWylie/actions/workflows/sync-prs.yml) · Scheduled daily for 08:17 Beijing time; GitHub may start it later.",
+        f"[Automatic PR sync](https://github.com/{config['author']}/{config['author']}/actions/workflows/sync-prs.yml) · Scheduled daily for 08:17 Beijing time; GitHub may start it later.",
     ])
 
 
