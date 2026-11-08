@@ -28,7 +28,7 @@ Selected open, non-draft proposals. Titles and status sync from GitHub daily.
 | :--- | :--- | :--- |
 | **vLLM-Omni** | Fuse H3 final affine and FP32 promotion | [#8677](https://github.com/vllm-project/vllm-omni/pull/8677) |
 | **vLLM-Omni** | Load Alibaba PDD adapters for MiniMax H3 | [#7425](https://github.com/vllm-project/vllm-omni/pull/7425) |
-| **SGLang** | kimi\_k3: Add opt-in FlashInfer fused KDA decode consumer | [#48859](https://github.com/sgl-project/sglang/pull/48859) |
+| **SGLang** | hicache: reject short Mooncake zero-copy reads | [#49086](https://github.com/sgl-project/sglang/pull/49086) |
 | **FlashInfer** | feat: share call validation through backend requirements | [#8793](https://github.com/flashinfer-ai/flashinfer/pull/8793) |
 | **AIPerf** | feat(dataset): add opt-in disjoint warmup conversation pools | [#1676](https://github.com/ai-dynamo/aiperf/pull/1676) |
 | **SGLang** | \[NVIDIA\] kimi\_k3: Add in-tree TP8 specialized decode with DCP and HiCache | [#48510](https://github.com/sgl-project/sglang/pull/48510) |
