@@ -4,7 +4,7 @@
 
 I build agent tools and contribute to open-source inference systems, from multimodal models to serving and runtime correctness.
 
-我关注 **Agent 工程 && 模型推理优化**，期待成为一名AI infra-er，欢迎交流呀。
+我关注 **Agent 工程 && 模型推理优化**，欢迎交流呀。
 
 <!-- PR-SYNC:START -->
 ### Selected contributions
