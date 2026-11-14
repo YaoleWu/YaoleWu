@@ -27,10 +27,10 @@ Selected open, non-draft proposals. Titles and status sync from GitHub daily.
 | Project | Proposed change | PR |
 | :--- | :--- | :--- |
 | **vLLM-Omni** | Fuse H3 final affine and FP32 promotion | [#8677](https://github.com/vllm-project/vllm-omni/pull/8677) |
+| **SGLang** | muse\_spark: keep the window-free cache switch on its global default | [#50432](https://github.com/sgl-project/sglang/pull/50432) |
+| **FlashInfer** | Dispatch b12x FP4 GEMM on every SM12x device (major == 12) | [#9457](https://github.com/flashinfer-ai/flashinfer/pull/9457) |
 | **SGLang** | router: gate the closed-connection POST replay behind a flag | [#50167](https://github.com/sgl-project/sglang/pull/50167) |
-| **SGLang** | router: set TCP\_NODELAY on accepted client sockets | [#50125](https://github.com/sgl-project/sglang/pull/50125) |
 | **FlashInfer** | fix(aot): include the H20 CUTLASS MoE variant in SM90 providers | [#9249](https://github.com/flashinfer-ai/flashinfer/pull/9249) |
-| **FlashInfer** | feat: share call validation through backend requirements | [#8793](https://github.com/flashinfer-ai/flashinfer/pull/8793) |
 | **AIPerf** | feat(dataset): add opt-in disjoint warmup conversation pools | [#1676](https://github.com/ai-dynamo/aiperf/pull/1676) |
 | **vLLM** | \[Benchmark\] Reject incomplete completion streams | [#64703](https://github.com/vllm-project/vllm/pull/64703) |
 | **vLLM** | \[CI\] Run Anthropic contract tests on CPU | [#64694](https://github.com/vllm-project/vllm/pull/64694) |
