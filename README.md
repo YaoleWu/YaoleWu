@@ -27,9 +27,9 @@ Selected open, non-draft proposals. Titles and status sync from GitHub daily.
 | Project | Proposed change | PR |
 | :--- | :--- | :--- |
 | **vLLM-Omni** | Fuse H3 final affine and FP32 promotion | [#8677](https://github.com/vllm-project/vllm-omni/pull/8677) |
+| **vLLM** | \[gRPC\] Add explicit text/tokens output modes to Inference | [#67783](https://github.com/vllm-project/vllm/pull/67783) |
+| **SGLang** | scheduler: Add waitable request retirement receipts | [#50617](https://github.com/sgl-project/sglang/pull/50617) |
 | **SGLang** | mem\_cache: validate Mooncake get receipts before marking pages present | [#50582](https://github.com/sgl-project/sglang/pull/50582) |
-| **vLLM** | \[gRPC\] Add output\_mode (text/tokens) to vllm.Inference; reject derender | [#67730](https://github.com/vllm-project/vllm/pull/67730) |
-| **SGLang** | glm-5.3: Encode chat template content as ordinary text | [#50578](https://github.com/sgl-project/sglang/pull/50578) |
 | **FlashInfer** | Dispatch b12x FP4 GEMM on every SM12x device (major == 12) | [#9457](https://github.com/flashinfer-ai/flashinfer/pull/9457) |
 | **FlashInfer** | fix(aot): include the H20 CUTLASS MoE variant in SM90 providers | [#9249](https://github.com/flashinfer-ai/flashinfer/pull/9249) |
 | **AIPerf** | feat(dataset): add opt-in disjoint warmup conversation pools | [#1676](https://github.com/ai-dynamo/aiperf/pull/1676) |
