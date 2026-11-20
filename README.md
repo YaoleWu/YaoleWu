@@ -27,13 +27,13 @@ Selected open, non-draft proposals. Titles and status sync from GitHub daily.
 | Project | Proposed change | PR |
 | :--- | :--- | :--- |
 | **vLLM-Omni** | Fuse H3 final affine and FP32 promotion | [#8677](https://github.com/vllm-project/vllm-omni/pull/8677) |
-| **SGLang** | pd: Add decode-side prompt-tail computation and first-token sampling | [#50807](https://github.com/sgl-project/sglang/pull/50807) |
+| **AIPerf** | feat(records): expose selected target URL index in exports | [#1747](https://github.com/ai-dynamo/aiperf/pull/1747) |
+| **SGLang** | \[Perf\] dsa: Avoid per-row CPU allocations in indexer TP split planning | [#51582](https://github.com/sgl-project/sglang/pull/51582) |
+| **SGLang** | \[Perf\] dsa: Skip unused FlashMLA schedules for packed prefill | [#51575](https://github.com/sgl-project/sglang/pull/51575) |
 | **vLLM** | \[gRPC\] Add explicit text/tokens output modes to Inference | [#67783](https://github.com/vllm-project/vllm/pull/67783) |
-| **SGLang** | scheduler: Add waitable request retirement receipts | [#50617](https://github.com/sgl-project/sglang/pull/50617) |
-| **FlashInfer** | Dispatch b12x FP4 GEMM on every SM12x device (major == 12) | [#9457](https://github.com/flashinfer-ai/flashinfer/pull/9457) |
 | **FlashInfer** | fix(aot): include the H20 CUTLASS MoE variant in SM90 providers | [#9249](https://github.com/flashinfer-ai/flashinfer/pull/9249) |
+| **FlashInfer** | feat: share call validation through backend requirements | [#8793](https://github.com/flashinfer-ai/flashinfer/pull/8793) |
 | **AIPerf** | feat(dataset): add opt-in disjoint warmup conversation pools | [#1676](https://github.com/ai-dynamo/aiperf/pull/1676) |
-| **vLLM** | \[Benchmark\] Reject incomplete completion streams | [#64703](https://github.com/vllm-project/vllm/pull/64703) |
 
 [All open upstream PRs →](https://github.com/pulls?q=is%3Apr+author%3AYaoleWu+is%3Apublic+is%3Aopen+-user%3AYaoleWu)
 
