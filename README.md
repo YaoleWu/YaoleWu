@@ -27,13 +27,13 @@ Selected open, non-draft proposals. Titles and status sync from GitHub daily.
 | Project | Proposed change | PR |
 | :--- | :--- | :--- |
 | **vLLM-Omni** | Fuse H3 final affine and FP32 promotion | [#8677](https://github.com/vllm-project/vllm-omni/pull/8677) |
+| **SGLang** | \[Perf\] \[NVIDIA\] dsa: Fuse no-RoPE index-K normalization and FP8 cache store on SM120 | [#52038](https://github.com/sgl-project/sglang/pull/52038) |
+| **SGLang** | cookbook: Prevent HiCache in DeepSeek-V4.1 PD decode | [#51960](https://github.com/sgl-project/sglang/pull/51960) |
+| **FlashInfer** | perf(cake\_deepgemm): tune four paged MQA routes for RTX PRO 5000 | [#9778](https://github.com/flashinfer-ai/flashinfer/pull/9778) |
+| **FlashInfer** | bench(mla): sweep fixed split counts for SM120 FP8 decode | [#9775](https://github.com/flashinfer-ai/flashinfer/pull/9775) |
+| **kvcache-ai/Mooncake** | \[Store\] Add deterministic hit/miss read benchmark | [#5699](https://github.com/kvcache-ai/Mooncake/pull/5699) |
+| **kvcache-ai/Mooncake** | \[TE\] Make tebench warmup configurable and reduce workload-loop overhead | [#5698](https://github.com/kvcache-ai/Mooncake/pull/5698) |
 | **AIPerf** | feat(records): expose selected target URL index in exports | [#1747](https://github.com/ai-dynamo/aiperf/pull/1747) |
-| **SGLang** | \[Perf\] dsa: Avoid per-row CPU allocations in indexer TP split planning | [#51582](https://github.com/sgl-project/sglang/pull/51582) |
-| **SGLang** | \[Perf\] dsa: Skip unused FlashMLA schedules for packed prefill | [#51575](https://github.com/sgl-project/sglang/pull/51575) |
-| **vLLM** | \[gRPC\] Add explicit text/tokens output modes to Inference | [#67783](https://github.com/vllm-project/vllm/pull/67783) |
-| **FlashInfer** | fix(aot): include the H20 CUTLASS MoE variant in SM90 providers | [#9249](https://github.com/flashinfer-ai/flashinfer/pull/9249) |
-| **FlashInfer** | feat: share call validation through backend requirements | [#8793](https://github.com/flashinfer-ai/flashinfer/pull/8793) |
-| **AIPerf** | feat(dataset): add opt-in disjoint warmup conversation pools | [#1676](https://github.com/ai-dynamo/aiperf/pull/1676) |
 
 [All open upstream PRs →](https://github.com/pulls?q=is%3Apr+author%3AYaoleWu+is%3Apublic+is%3Aopen+-user%3AYaoleWu)
 
