@@ -27,12 +27,12 @@ Selected open, non-draft proposals. Titles and status sync from GitHub daily.
 | Project | Proposed change | PR |
 | :--- | :--- | :--- |
 | **vLLM-Omni** | Fuse H3 final affine and FP32 promotion | [#8677](https://github.com/vllm-project/vllm-omni/pull/8677) |
-| **SGLang** | \[Perf\] \[NVIDIA\] dsa: Fuse no-RoPE index-K normalization and FP8 cache store on SM120 | [#52038](https://github.com/sgl-project/sglang/pull/52038) |
-| **SGLang** | cookbook: Prevent HiCache in DeepSeek-V4.1 PD decode | [#51960](https://github.com/sgl-project/sglang/pull/51960) |
+| **SGLang** | \[Perf\] \[NVIDIA\] dsv4: Shard Hopper dense candidate prefill indexers | [#52075](https://github.com/sgl-project/sglang/pull/52075) |
+| **SGLang** | \[Perf\] \[NVIDIA\] dsa: Fuse KPool query Hadamard and FP8 gate quantization on SM120 | [#52046](https://github.com/sgl-project/sglang/pull/52046) |
 | **FlashInfer** | perf(cake\_deepgemm): tune four paged MQA routes for RTX PRO 5000 | [#9778](https://github.com/flashinfer-ai/flashinfer/pull/9778) |
 | **FlashInfer** | bench(mla): sweep fixed split counts for SM120 FP8 decode | [#9775](https://github.com/flashinfer-ai/flashinfer/pull/9775) |
 | **kvcache-ai/Mooncake** | \[Store\] Add deterministic hit/miss read benchmark | [#5699](https://github.com/kvcache-ai/Mooncake/pull/5699) |
-| **kvcache-ai/Mooncake** | \[TE\] Make tebench warmup configurable and reduce workload-loop overhead | [#5698](https://github.com/kvcache-ai/Mooncake/pull/5698) |
+| **kvcache-ai/Mooncake** | \[Store\] Preserve logical segment preference across BatchPutStart | [#5697](https://github.com/kvcache-ai/Mooncake/pull/5697) |
 | **AIPerf** | feat(records): expose selected target URL index in exports | [#1747](https://github.com/ai-dynamo/aiperf/pull/1747) |
 
 [All open upstream PRs →](https://github.com/pulls?q=is%3Apr+author%3AYaoleWu+is%3Apublic+is%3Aopen+-user%3AYaoleWu)
