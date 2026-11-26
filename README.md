@@ -27,13 +27,13 @@ Selected open, non-draft proposals. Titles and status sync from GitHub daily.
 | Project | Proposed change | PR |
 | :--- | :--- | :--- |
 | **vLLM-Omni** | Fuse H3 final affine and FP32 promotion | [#8677](https://github.com/vllm-project/vllm-omni/pull/8677) |
+| **vLLM** | \[Perf\]\[Scheduler\] Skip spec padding once the batch is nonuniform | [#69887](https://github.com/vllm-project/vllm/pull/69887) |
 | **SGLang** | dsv41: Support encoder SWA replay with eager interleave CP | [#52734](https://github.com/sgl-project/sglang/pull/52734) |
 | **SGLang** | linker: Deduplicate replicated DSV4.1 pages across CP ranks | [#52733](https://github.com/sgl-project/sglang/pull/52733) |
 | **FlashInfer** | fix(gemm): retune SM120 FP4 when Stream-K policy changes | [#9941](https://github.com/flashinfer-ai/flashinfer/pull/9941) |
 | **llm-d/llm-d-router** | coordinator: add experimental single-rank HTTP Mooncake KV handoff | [#4488](https://github.com/llm-d/llm-d-router/pull/4488) |
 | **kvcache-ai/Mooncake** | \[Conductor\] Scope shared-tier hits by engine backend eligibility | [#5762](https://github.com/kvcache-ai/Mooncake/pull/5762) |
 | **FlashInfer** | perf(cake\_deepgemm): tune four paged MQA routes for RTX PRO 5000 | [#9778](https://github.com/flashinfer-ai/flashinfer/pull/9778) |
-| **kvcache-ai/Mooncake** | \[Store\] Add deterministic hit/miss read benchmark | [#5699](https://github.com/kvcache-ai/Mooncake/pull/5699) |
 
 [All open upstream PRs →](https://github.com/pulls?q=is%3Apr+author%3AYaoleWu+is%3Apublic+is%3Aopen+-user%3AYaoleWu)
 
